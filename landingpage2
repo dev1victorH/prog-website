@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serenity Flow - Studio de Yoga que oferece aulas relaxantes e meditativas com um ambiente inspirado na tranquilidade da chuva.">
+    <meta name="keywords" content="Serenity Flow, yoga, studio de yoga, aulas de yoga, tranquilidade, chuva, meditação">
+    <meta name="author" content="Serenity Flow">
+    <title>Serenity Flow - Studio de Yoga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #e0f7fa;
+            color: #004d40;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1506367805403-1c2c434c87e6');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background: rgba(0, 77, 64, 0.8);
+            color: #e0f2f1;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .logo img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004d40;
+        }
+        .instrutor img {
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid #004d40;
+        }
+        .btn-inscricao {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #004d40;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn-inscricao:hover {
+            background-color: #00251a;
+        }
+        footer {
+            text-align: center;
+            background: #004d40;
+            color: #e0f2f1;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.imgur.com/YOURLOGO.png" alt="Logo Serenity Flow">
+        </div>
+        <h1>Serenity Flow</h1>
+        <p>Seu refúgio de tranquilidade e equilíbrio.</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao <strong>Serenity Flow</strong>, onde oferecemos aulas de yoga em um ambiente sereno, inspirado na tranquilidade da chuva. Nossos instrutores são dedicados a proporcionar uma experiência de yoga que acalma a mente e revitaliza o corpo.</p>
+    </section>
+
+    <section id="instrutores">
+        <h2>Conheça Nossos Instrutores</h2>
+        <div class="instrutor">
+            <img src="https://i.imgur.com/INSTRUTOR1.png" alt="Instrutor Sanji">
+            <p><strong>Sanji</strong> - Instrutor principal, especializado em técnicas de respiração e meditação.</p>
+        </div>
+        <div class="instrutor">
+            <img src="https://i.imgur.com/INSTRUTOR2.png" alt="Instrutor Luffy">
+            <p><strong>Luffy</strong> - Fundador e instrutor de yoga, conhecido por seu estilo motivacional e energizante.</p>
+        </div>
+    </section>
+
+    <section id="aulas">
+        <h2>Aulas Experimentais</h2>
+        <p>Oferecemos aulas experimentais conduzidas por <strong>Robin</strong> e <strong>Nami</strong>. Experimente uma sessão gratuita e descubra como podemos ajudar a melhorar sua saúde e bem-estar.</p>
+        <a href="https://inscricao.serenityflow.com" class="btn-inscricao">Inscreva-se Agora</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Serenity Flow - Todos os direitos reservados. Inspire-se, relaxe e encontre equilíbrio.</p>
+    </footer>
+</body>
+</html>
