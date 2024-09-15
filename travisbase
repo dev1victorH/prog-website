@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travis Scott - Perfil Oficial</title>
+    <style>
+        /* Layout de Cabeçalho */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #4f2c0b; /* Marrom */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 3rem; /* Aumentado para centralizar */
+            letter-spacing: 2px;
+        }
+
+        .logo img {
+            width: 150px; /* Imagem maior */
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Estilo de Biografia */
+        #biografia {
+            background-color: #6f4f28; /* Marrom mais claro */
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        #biografia p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        /* Estilo de Discografia */
+        #discografia {
+            background-color: #6f4f28; /* Marrom mais claro */
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        #discografia .albuns {
+            display: flex;
+            justify-content: center; /* Centraliza os álbuns */
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .album {
+            margin: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .album img {
+            width: 220px; /* Imagem maior */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .album:hover {
+            transform: scale(1.05);
+        }
+
+        /* Seção de Vídeos */
+        #videos {
+            background-color: #4f2c0b; /* Marrom */
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+
+        #videos .player {
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do Formulário */
+        #contato form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
+            background-color: #6f4f28; /* Marrom mais claro */
+            color: #fff;
+            border-radius: 8px;
+            width: 50%;
+            margin: auto;
+        }
+
+        #contato input, #contato textarea {
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #3c2f1a; /* Marrom escuro */
+            color: #fff;
+        }
+
+        #contato button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #ff6600; /* Laranja */
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        #contato button:hover {
+            background-color: #e65c00; /* Laranja escuro */
+        }
+
+        /* Redes Sociais no Rodapé */
+        footer {
+            background-color: #3c2f1a; /* Marrom escuro */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-media li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        .social-media a {
+            color: #ff6600; /* Laranja */
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #fff;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            #discografia .albuns {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #contato form {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="https://www.mordeo.org/files/uploads/2022/05/Singer-Travis-Scott-On-Stage-Photoshoot-4K-Ultra-HD-Mobile-Wallpaper.jpg" alt="Travis Scott">
+        </div>
+        <h1>Travis Scott</h1>
+    </header>
+
+    <!-- Biografia -->
+    <section id="biografia">
+        <h2>Biografia</h2>
+        <p>Jacques Webster, mais conhecido como Travis Scott, é um rapper, cantor, compositor e produtor musical americano. Ele é conhecido por seus álbuns icônicos como "Rodeo", "Astroworld" e seu estilo musical único que mistura rap, trap e sonoridades psicodélicas.</p>
+    </section>
+
+    <!-- Discografia -->
+    <section id="discografia">
+        <h2>Discografia</h2>
+        <div class="albuns">
+            <div class="album">
+                <img src="https://i.redd.it/fsct043ldt331.png" alt="Rodeo">
+                <p>Rodeo (2015) - Inclui faixas como "Antidote", "3500", e "90210".</p>
+            </div>
+            <div class="album">
+                <img src="https://wallpapers.com/images/high/astroworld-background-gzace430repfp8q2.webp" alt="Astroworld">
+                <p>Astroworld (2018) - Inclui faixas como "Sicko Mode", "Stargazing", e "Stop Trying to Be God".</p>
+            </div>
+            <div class="album">
+                <img src="https://media.pitchfork.com/photos/64c3bee4a7c2659c4cdcf382/1:1/w_3000,h_3000,c_limit/Travis%20Scott%20-%20Utopia.jpeg" alt="Utopia">
+                <p>Utopia (2023) - O álbum mais recente de Travis Scott, explorando novas sonoridades com faixas como "K-POP" e "MELTDOWN".</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Vídeos/Músicas -->
+    <section id="videos">
+        <h2>Vídeos e Músicas</h2>
+        <div class="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d-JBBNg8YKs" title="Travis Scott - Sicko Mode" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="player">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6ONRf7h3Mdk" title="Travis Scott - Goosebumps" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Datas de Turnê -->
+    <section id="turne">
+        <h2>Próximas Turnês</h2>
+        <ul>
+            <li>15 de Outubro, 2024 - Los Angeles, EUA</li>
+            <li>20 de Outubro, 2024 - São Paulo, Brasil</li>
+            <li>25 de Outubro, 2024 - Paris, França</li>
+        </ul>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Siga Travis Scott nas redes sociais:</p>
+        <ul class="social-media">
+            <li><a href="https://www.instagram.com/travisscott/">Instagram</a></li>
+            <li><a href="https://twitter.com/trvisXX">Twitter</a></li>
+            <li><a href="https://www.facebook.com/travisscottlaflame/">Facebook</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
