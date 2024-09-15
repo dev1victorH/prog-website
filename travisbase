@@ -187,11 +187,11 @@
         </div>
     </section>
 
-    <!-- Seção de Vídeos/Músicas -->
+    <!-- Seção de Vídeos -->
     <section id="videos">
         <h2>Vídeos e Músicas</h2>
         <div class="player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/d-JBBNg8YKs" title="Travis Scott - Sicko Mode" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/B9synWjqBn8" title="Travis Scott - SICKO MODE" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="player">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/6ONRf7h3Mdk" title="Travis Scott - Goosebumps" frameborder="0" allowfullscreen></iframe>
