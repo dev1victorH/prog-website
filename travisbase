@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -20,6 +20,7 @@
             font-family: 'Arial', sans-serif;
             font-size: 3rem; /* Aumentado para centralizar */
             letter-spacing: 2px;
+            margin: 0;
         }
 
         .logo img {
@@ -59,6 +60,7 @@
         .album {
             margin: 15px;
             transition: transform 0.3s ease;
+            text-align: center;
         }
 
         .album img {
@@ -81,6 +83,13 @@
 
         #videos .player {
             margin-bottom: 20px;
+        }
+
+        .player img {
+            width: 560px; /* Imagem maior */
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
         }
 
         /* Estilo do Formulário */
@@ -126,6 +135,11 @@
             padding: 20px;
         }
 
+        .social-media {
+            list-style-type: none;
+            padding: 0;
+        }
+
         .social-media li {
             display: inline;
             margin-right: 15px;
@@ -165,7 +179,7 @@
     <!-- Biografia -->
     <section id="biografia">
         <h2>Biografia</h2>
-        <p>Jacques Webster, mais conhecido como Travis Scott, é um rapper, cantor, compositor e produtor musical americano. Ele é conhecido por seus álbuns icônicos como "Rodeo", "Astroworld" e seu estilo musical único que mistura rap, trap e sonoridades psicodélicas.</p>
+        <p>Jacques Webster, mais conhecido como Travis Scott, é um rapper, cantor, compositor e produtor musical americano. Ele é conhecido por seus álbuns icônicos como "Rodeo", "Astroworld" e seu estilo musical único que mistura rap, trap e sonoridades psicodélicas... Sou "fein" desse cara!</p> 
     </section>
 
     <!-- Discografia -->
@@ -191,10 +205,16 @@
     <section id="videos">
         <h2>Vídeos e Músicas</h2>
         <div class="player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/B9synWjqBn8" title="Travis Scott - SICKO MODE" frameborder="0" allowfullscreen></iframe>
+            <img src="https://pa1.aminoapps.com/6930/f1f73bdc15713b81dcb0d0c6e4d14ef9c6b65b3fr1-512-512_00.gif" alt="Travis Scott - SICKO MODE">
+            <a href="https://youtu.be/6ONRf7h3Mdk" target="_blank">
+                <button>Assistir no YouTube</button>
+            </a>
         </div>
         <div class="player">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/6ONRf7h3Mdk" title="Travis Scott - Goosebumps" frameborder="0" allowfullscreen></iframe>
+            <img src="https://i0.wp.com/grungecake.com/wp-content/uploads/2024/03/travis-scott-fein-playboy-carti-grungecake-thumbnail.gif?fit=520%2C293&ssl=1" alt="Travis Scott - Goosebumps">
+            <a href="https://youtu.be/B9synWjqBn8" target="_blank">
+                <button>Assistir no YouTube</button>
+            </a>
         </div>
     </section>
 
@@ -227,12 +247,14 @@
 
     <!-- Rodapé -->
     <footer>
-        <p>Siga Travis Scott nas redes sociais:</p>
+        <p>Encontre Travis Scott nas redes sociais:</p>
         <ul class="social-media">
-            <li><a href="https://www.instagram.com/travisscott/">Instagram</a></li>
-            <li><a href="https://twitter.com/trvisXX">Twitter</a></li>
-            <li><a href="https://www.facebook.com/travisscottlaflame/">Facebook</a></li>
+            <li><a href="https://twitter.com/TravisScott" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/travisscott/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/travisscott" target="_blank">Facebook</a></li>
         </ul>
+        <p>&copy; 2024 Travis Scott. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
