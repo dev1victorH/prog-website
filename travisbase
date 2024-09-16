@@ -18,13 +18,13 @@
 
         header h1 {
             font-family: 'Arial', sans-serif;
-            font-size: 3rem; /* Aumentado para centralizar */
+            font-size: 7rem; /* Aumentado para centralizar */
             letter-spacing: 2px;
             margin: 0;
         }
 
         .logo img {
-            width: 150px; /* Imagem maior */
+            width: 250px; /* Imagem maior */
             height: auto;
             border-radius: 50%;
         }
@@ -33,20 +33,20 @@
         #biografia {
             background-color: #4f2c0b; /* Marrom */
             color: #fff;
-            padding: 30px;
+            padding: 60px;
             text-align: center;
         }
 
         #biografia p {
-            font-size: 1.2rem;
+            font-size: 3rem;
             line-height: 1.6;
         }
 
         /* Estilo de Discografia */
         #discografia {
-            background-color: #4f2c0b; /* Marrom mais claro */
+            background-color: #4f2c0b; /* Marrom */
             color: #fff;
-            padding: 30px;
+            padding: 60px;
             text-align: center;
         }
 
@@ -54,7 +54,7 @@
             display: flex;
             justify-content: center; /* Centraliza os álbuns */
             flex-wrap: wrap;
-            margin-top: 20px;
+            margin-top: 50px;
         }
 
         .album {
@@ -64,7 +64,7 @@
         }
 
         .album img {
-            width: 220px; /* Imagem maior */
+            width: 460px; /* Imagem maior */
             height: auto;
             border-radius: 8px;
         }
@@ -86,7 +86,7 @@
         }
 
         .player img {
-            width: 560px; /* Imagem maior */
+            width: 640px; /* Imagem maior */
             height: auto;
             border-radius: 8px;
             margin-bottom: 10px;
