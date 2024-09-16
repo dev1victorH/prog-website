@@ -31,7 +31,7 @@
 
         /* Estilo de Biografia */
         #biografia {
-            background-color: #6f4f28; /* Marrom mais claro */
+            background-color: #4f2c0b; /* Marrom */
             color: #fff;
             padding: 30px;
             text-align: center;
