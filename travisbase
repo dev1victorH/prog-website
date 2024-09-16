@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -18,27 +18,27 @@
 
         header h1 {
             font-family: 'Arial', sans-serif;
-            font-size: 7rem; /* Aumentado para centralizar */
-            letter-spacing: 2px;
+            font-size: 3rem; /* Aumentado para centralizar */
+            letter-spacing: 1px;
             margin: 0;
         }
 
         .logo img {
-            width: 250px; /* Imagem maior */
+            width: 600px; /* Imagem maior */
             height: auto;
-            border-radius: 50%;
+            border-radius: 100%;
         }
 
         /* Estilo de Biografia */
         #biografia {
             background-color: #4f2c0b; /* Marrom */
             color: #fff;
-            padding: 60px;
+            padding: 50px;
             text-align: center;
         }
 
         #biografia p {
-            font-size: 3rem;
+            font-size: 2.3rem;
             line-height: 1.6;
         }
 
@@ -58,13 +58,13 @@
         }
 
         .album {
-            margin: 15px;
-            transition: transform 0.3s ease;
+            margin: 25px;
+            transition: transform 0.5s ease;
             text-align: center;
         }
 
         .album img {
-            width: 460px; /* Imagem maior */
+            width: 400px; /* Imagem maior */
             height: auto;
             border-radius: 8px;
         }
@@ -86,7 +86,7 @@
         }
 
         .player img {
-            width: 640px; /* Imagem maior */
+            width: 520px; /* Imagem maior */
             height: auto;
             border-radius: 8px;
             margin-bottom: 10px;
@@ -114,7 +114,7 @@
         }
 
         #contato button {
-            padding: 10px 20px;
+            padding: 30px 40px;
             border: none;
             background-color: #ff6600; /* Laranja */
             color: white;
@@ -132,7 +132,7 @@
             background-color: #3c2f1a; /* Marrom escuro */
             color: #fff;
             text-align: center;
-            padding: 20px;
+            padding: 40px;
         }
 
         .social-media {
@@ -171,9 +171,9 @@
     <!-- Cabeçalho -->
     <header>
         <div class="logo">
-            <img src="https://www.mordeo.org/files/uploads/2022/05/Singer-Travis-Scott-On-Stage-Photoshoot-4K-Ultra-HD-Mobile-Wallpaper.jpg" alt="Travis Scott">
+            <img src="https://images.hdqwalls.com/download/travis-scott-gq-mu-3840x2160.jpg" alt="Travis Scott">
         </div>
-        <h1>Travis Scott</h1>
+        
     </header>
 
     <!-- Biografia -->
@@ -207,13 +207,13 @@
         <div class="player">
             <img src="https://pa1.aminoapps.com/6930/f1f73bdc15713b81dcb0d0c6e4d14ef9c6b65b3fr1-512-512_00.gif" alt="Travis Scott - SICKO MODE">
             <a href="https://youtu.be/6ONRf7h3Mdk" target="_blank">
-                <button>Assistir no YouTube</button>
+                <button>YouTube</button>
             </a>
         </div>
         <div class="player">
             <img src="https://i0.wp.com/grungecake.com/wp-content/uploads/2024/03/travis-scott-fein-playboy-carti-grungecake-thumbnail.gif?fit=520%2C293&ssl=1" alt="Travis Scott - Goosebumps">
             <a href="https://youtu.be/B9synWjqBn8" target="_blank">
-                <button>Assistir no YouTube</button>
+                <button>YouTube</button>
             </a>
         </div>
     </section>
@@ -257,4 +257,3 @@
     </footer>
 </body>
 </html>
-
