@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <style>
+        /* Fonte Google */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #b3d9ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://s2.best-wallpaper.net/wallpaper/1680x1050/1201/Sky-clouds_1680x1050.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.5); /* Fundo mais transparente */
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 2.2rem;
+            color: #1a1a1a;
+        }
+
+        .relogio {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .bloco {
+            background-color: rgba(255, 255, 255, 0.3); /* Fundo ainda mais transparente */
+            border-radius: 10px;
+            padding: 15px;
+            width: 60px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s; /* Animação de virada */
+        }
+
+        .bloco span {
+            display: block;
+            font-size: 2.5rem;
+            color: #000; /* Cor preta */
+            font-family: Arial, sans-serif;
+        }
+
+        /* Animação para o bloco de segundos */
+        .bloco-segundos {
+            animation: flip 1s infinite;
+        }
+
+        /* Keyframes para a animação de virada */
+        @keyframes flip {
+            0% {
+                transform: rotateX(0deg);
+            }
+            50% {
+                transform: rotateX(90deg);
+            }
+            100% {
+                transform: rotateX(0deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Relógio Digital</h1>
+        <div class="relogio">
+            <div class="bloco">
+                <span id="horas">00</span>
+            </div>
+
+            <div class="bloco">
+                <span id="minutos">00</span>
+            </div>
+
+            <div class="bloco bloco-segundos">
+                <span id="segundos">00</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function atualizarRelogio() {
+            const now = new Date();
+            const horas = String(now.getHours()).padStart(2, '0');
+            const minutos = String(now.getMinutes()).padStart(2, '0');
+            const segundos = String(now.getSeconds()).padStart(2, '0');
+
+            document.getElementById('horas').textContent = horas;
+            document.getElementById('minutos').textContent = minutos;
+            document.getElementById('segundos').textContent = segundos;
+        }
+
+        // Atualiza o relógio a cada segundo
+        setInterval(atualizarRelogio, 1000);
+        atualizarRelogio(); // Chama a função uma vez para evitar espera de 1 segundo
+    </script>
+</body>
+
+</html>
