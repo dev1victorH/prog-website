@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relógio Digital</title>
     <style>
-        /* Fonte Google */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        /* Fonte Alarm Clock */
+        @font-face {
+            font-family: 'Alarm Clock';
+            src: url('https://example.com/path-to-alarm-clock-font.ttf') format('truetype');
+            font-weight: bold;
+        }
 
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Alarm Clock', sans-serif;
             background-color: #b3d9ff;
             color: #333;
             display: flex;
@@ -26,16 +30,14 @@
 
         .container {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.5); /* Fundo mais transparente */
-            border-radius: 15px;
             padding: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
 
         h1 {
             margin-bottom: 15px;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             color: #1a1a1a;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Borrão ao redor do título */
         }
 
         .relogio {
@@ -44,26 +46,19 @@
             gap: 15px;
         }
 
-        .bloco {
-            background-color: rgba(255, 255, 255, 0.3); /* Fundo ainda mais transparente */
-            border-radius: 10px;
-            padding: 15px;
-            width: 60px;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s; /* Animação de virada */
-        }
-
         .bloco span {
             display: block;
-            font-size: 2.5rem;
+            font-size: 6rem; /* Tamanho maior */
             color: #000; /* Cor preta */
-            font-family: Arial, sans-serif;
+            font-family: 'Alarm Clock', sans-serif;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), /* Borrão em preto */
+                         0 0 20px rgba(0, 0, 0, 0.3); /* Borrão adicional para mais suavidade */
         }
 
         /* Animação para o bloco de segundos */
         .bloco-segundos {
-            animation: flip 1s infinite;
+            animation: flip 1.5s infinite;
         }
 
         /* Keyframes para a animação de virada */
@@ -118,3 +113,4 @@
 </body>
 
 </html>
+
