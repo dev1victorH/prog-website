@@ -124,6 +124,7 @@
         section {
             min-height: 100vh;
             padding: 5rem 9% 5rem;
+            font-size: 2rem;
         }
 
         /* Estilo da seção "home" */
@@ -303,33 +304,52 @@
 
 <body>
     <header>
-        <a href="#" class="logo">Alex</a>
+        <a href="#" class="logo">Victor Almeida</a>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-img">
             <img src="main.jpg" alt="">
         </div>
         <div class="home-content">
-            <h1>Hi, It's <span>Alex</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <h1>Prazer, sou <span>Victor</span></h1>
+            <h3 class="typing-text">Sou programador/<span></span></h3>
+            <p>Sou estudante da UNIVASSOURAS e programador iniciante, em busca de ampliar minhas habilidades e evoluir na minha área.</p>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#contact" class="btn">Hire me</a>
         </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Peça o que quiser, front end, back and, games e etc. Não garanto que o serviço vai ser realizado mas pelo menos você só vai me pagar um salgado e uma coca.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Sou estudante na UNIVASSOURAS, onde adquiri conhecimento fundamental em programação e outras áreas relacionadas à tecnologia.Só o básico;)</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Sou clt e tenho muita experiência em chegar atrasado no trabalho, também sou especialista em me enrolar com a matéria da faculdade e de quebra sou um jogador de basquete apostentado aos 18 pq infelizmente não deu certo.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Entre em contato comigo pelo telefone: <a href="tel:+24992023517" style="color:white;">24992023517</a></p>
     </section>
 </body>
 
